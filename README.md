@@ -1,3 +1,6 @@
-# My Awesome Book
+# 关于本书
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+这是一本 Linux 的简明入门教程，基于东北大学软件学院石凯老师的讲义，由同学整理并扩充，与东北大学软件学院 Linux 操作系统课程同步。
+
+
+
