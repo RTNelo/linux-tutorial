@@ -2,8 +2,8 @@
 
 * [关于本书](README.md)
 * [Linux 简介](chapter1.md)
-* 文件 / 用户 / 在线文档
-* 目录 / 文件信息 / 位操作
+* [文件 / 用户 / 在线文档](wen-jian-yong-hu-zai-xian-wen-dang.md)
+* [目录 / 文件信息 / 位操作](mu-lu-wen-jian-xin-xi-wei-cao-zuo.md)
 * 文件系统
 * 连接控制
 * 终端控制 / 信号
