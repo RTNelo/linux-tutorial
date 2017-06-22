@@ -5,7 +5,7 @@
 * [文件 / 用户 / 在线文档](wen-jian-yong-hu-zai-xian-wen-dang.md)
 * [目录 / 文件信息 / 位操作](mu-lu-wen-jian-xin-xi-wei-cao-zuo.md)
 * [文件系统](wen-jian-xi-tong.md)
-* 连接控制
+* [连接控制](lian-jie-kong-zhi.md)
 * 终端控制 / 信号
 * 编写一个 Video Game
 * 程序与进程

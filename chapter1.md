@@ -1,4 +1,4 @@
-# Chapter 1 - Linux 简介
+# Linux 简介
 
 
 
