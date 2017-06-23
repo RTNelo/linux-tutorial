@@ -16,7 +16,7 @@
 >
 > 我们可以使用`man <name>` 查询某个指令 / API 的手册，同时可以使用`man man`获取 Linux Manual 更详细的用法。
 
-### 如何打开文件？
+### 如何解决“如何打开文件”这个问题？
 
 尝试使用 Linux Manual 进行搜索：`man -k file | grep open | grep \(2\)`。该指令的含义是：在 Manual 中搜索 file 关键词，并过滤保留包含 open 的条目，再次过滤保留包含 \(2\) 的条目（即 Manual 的第二章）
 
