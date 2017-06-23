@@ -90,7 +90,7 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 `If FILE is not specified, use /var/run/utmp.  /var/log/wtmp as FILE is common.`
 
-也就是说，如果没有指定 FILE 的话，系统会默认从上述两个文件中读取用户登录日志。
+也就是说，如果没有指定 FILE 的话，系统会默认从上述两个文件中读取用户登录日志。自此，我们可以猜想，Linux 通过修某个文件来记录用户的登录状态。
 
 #### 从文件出发
 
