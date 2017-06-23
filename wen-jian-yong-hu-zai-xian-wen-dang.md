@@ -6,7 +6,7 @@
 * 学习系统调用（System Call）
 * 编写自己的系统程序
 
-## 文件 File
+## 文件 / File
 
 在 Linux 操作系统里，**“一切都是文件”**。而文件的“打开”等状态，是用**文件描述符**表示的。
 
@@ -60,9 +60,11 @@ buffer的大小会影响二进制流传递的效率。
 
 ### 扩展：初窥 Linux 文件系统
 
+#### Access Control Lists 权限控制列表
+
 ### 文件操作及系统调用
 
-## 用户 User
+## 用户 / User
 
 ### 思考：系统如何表示一个用户“登录了”？
 
@@ -74,9 +76,9 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 \[WIP: If file is not specified, use /var/run/utmp\]
 
-### 扩展：Access Control Lists 权限控制列表
+### 
 
-## 手册 Manual
+## 手册 / Manual
 
 
 
