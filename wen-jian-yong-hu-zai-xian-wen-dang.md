@@ -60,11 +60,11 @@ buffer的大小会影响二进制流传递的效率。
 
 ### 初窥 Linux 文件系统
 
-#### Access Control Lists 权限控制列表
+\[Access Control Lists 权限控制列表\]
 
 ### 文件操作及系统调用
 
-回到我们最先提到的概念：在 Linux 系统中，文件的“打开状态”是通过文件描述符表示的。文件在 Linux 操作系统中**非常重要。**在 Linux 中，设备I/O、SOCKET等一系列操作归根结底都是在进行文件操作。
+文件在 Linux 操作系统中**非常重要。**在 Linux 中，设备I/O、SOCKET等一系列操作归根结底都是在进行文件操作。因此文件状态也同样至关重要。回到我们最先提到的概念：在 Linux 系统中，文件的“打开状态”等一系列状态都是通过文件描述符表示的。而**系统是如何描述一个文件的呢？**
 
 #### 文件描述 / File Description
 
@@ -80,7 +80,7 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 \[WIP: If file is not specified, use /var/run/utmp\]
 
-### 
+### 编程：仿写 who 指令
 
 ## 手册 / Manual
 
