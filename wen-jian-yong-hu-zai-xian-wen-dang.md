@@ -28,6 +28,18 @@
 
 ### 编程：cat 指令
 
+#### 语言提示
+
+相信很多学过 C 语言的同学，都见过如下代码：
+
+`int main ()`
+
+但实际上，main 函数的完整原型是这样的：
+
+`int main (int argc, char* argv[])`
+
+argc 是 argument counts 的缩写，表示该可执行程序收到的参数个数，argv 是收到的参数构成的数组列表。
+
 ## 用户 User
 
 ## 在线文档 Online Document
