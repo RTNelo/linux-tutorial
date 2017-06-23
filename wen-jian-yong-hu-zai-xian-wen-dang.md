@@ -90,6 +90,10 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 \[WIP: If file is not specified, use /var/run/utmp\]
 
+#### 从文件出发
+
+我们之前提到过，在 Linux 中，“万物皆文件”。所以关于用户的一系列信息，自然也离不开文件。
+
 ### 编程：仿写 who 指令
 
 ## 手册 / Manual
