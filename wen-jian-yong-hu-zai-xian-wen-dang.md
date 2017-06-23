@@ -84,11 +84,13 @@ buffer的大小会影响二进制流传递的效率。
 
 Linux 为我们提供了一个指令，用来查看当前在线的用户列表：`who`。它是怎么实现的呢？不妨先在 Manual 里边看一看：
 
-`man who`
+`man who` - `who [OPTION]... [ FILE | ARG1 ARG2 ]`
 
-如果你的 Linux 拥有完整的 Manual ，你应该会看到如下片段：
+可以看到，who 接收一组参数，除了配置参数外，还包含一个文件（或者两个额外参数）。如果你的 Linux 拥有完整的 Manual ，你应该会看到如下片段：
 
-\[WIP: If file is not specified, use /var/run/utmp\]
+`If FILE is not specified, use /var/run/utmp.  /var/log/wtmp as FILE is common.`
+
+也就是说，如果没有指定 FILE 的话，系统会默认从上述两个文件中读取用户登录日志。
 
 #### 从文件出发
 
