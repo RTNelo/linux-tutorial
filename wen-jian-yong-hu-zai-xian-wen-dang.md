@@ -32,8 +32,6 @@
 
 _相关链接：_[_https://unix.stackexchange.com/questions/81129/what-are-the-differences-between-most-more-and-less_](https://unix.stackexchange.com/questions/81129/what-are-the-differences-between-most-more-and-less)
 
-\[WIP\]
-
 ### 编程：仿写 cat 指令
 
 #### 语言提示：参数列表
