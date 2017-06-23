@@ -62,7 +62,9 @@ buffer的大小会影响二进制流传递的效率。
 
 ### 从指令出发
 
-Linux 为我们提供了一个
+Linux 为我们提供了一个指令，用来查看当前在线的用户列表：`who`。它是怎么实现的呢？不妨使用 Linux Manual 查看一下：
+
+`man who`
 
 ### Access Control Lists 权限控制列表
 
