@@ -24,6 +24,8 @@
 
 > 管道（Pipe）：`|`符号，又称管道操作符，它的功能是将它左边程序输出的内容输入到右边的程序中，即为左右两个程序建立一个“管道”，实现 I/O Redirection。
 
+_如果你的`man -k`不能正常工作，不要急，往下看。_
+
 ### 在终端中浏览大量内容
 
 在传统的 UNIX 操作系统环境中，由于缺少 GUI ，只能显示一个屏幕大小的文本内容。为了解决这个问题，Linux 提供了诸如 `less`，`more`等辅助显示大量文本的工具。通过与`|`配合可以很轻松地在屏幕范围内浏览大量文本。
@@ -46,7 +48,7 @@ _相关链接：_[_https://unix.stackexchange.com/questions/81129/what-are-the-d
 
 `int main (int argc, char* argv[])`
 
-`argc`是 argument counts 的缩写，表示该可执行程序收到的参数个数，`argv`是 argument value的缩写，是收到的参数构成的数组列表。
+`argc`是 arguments count 的缩写，表示该可执行程序收到的参数个数，`argv`是 argument value的缩写，是收到的参数构成的数组列表。
 
 \[WIP\]
 
