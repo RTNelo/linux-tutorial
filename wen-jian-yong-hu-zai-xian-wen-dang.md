@@ -20,6 +20,8 @@
 
 尝试使用 Linux Manual 进行搜索：`man -k file | grep open | grep \(2\)`。该指令的含义是：在 Manual 中搜索 file 关键词，并过滤保留包含 open 的条目，再次过滤保留包含 \(2\) 的条目（即 Manual 的第二章）
 
+_\*在 CentOS 下  Manual 找不到符合上述条件的条目，Ubuntu 可以。_
+
 > 管道（Pipe）：`|`符号，又称管道操作符，用于...
 
 ### 在终端中浏览大量内容
