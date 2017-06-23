@@ -28,7 +28,9 @@
 
 在传统的 UNIX 操作系统环境中，由于缺少 GUI ，只能显示一个屏幕大小的文本内容。为了解决这个问题，Linux 提供了诸如 `less`，`more`等辅助显示大量文本的工具。通过与`|`配合可以很轻松地在屏幕范围内浏览大量文本。
 
-`less`和`more`都是用来浏览无法在一个屏幕显示完全的大文件的工具。`more`是一个很古老的指令，顾名思义，他只能“more”，即只支持向下翻页。与`more`不同的是，`less`不仅可以向下翻页，同时也可以向上翻页。不过，很多现代的 Linux 发行版在执行`more`指令的时候自动执行`less`，以方便用户使用。
+`less`和`more`都是用来浏览无法在一个屏幕显示完全的大文件的工具。`more`是一个很古老的指令，顾名思义，他只能“more”，即只支持向下翻页。与`more`不同的是，`less`不仅可以向下翻页，同时也可以向上翻页。不过，很多现代的 Linux 发行版在执行`more`指令的时候自动执行`less`，或是提供了一个更接近`less`的`more`以方便用户使用。
+
+_相关链接：_[_https://unix.stackexchange.com/questions/81129/what-are-the-differences-between-most-more-and-less_](https://unix.stackexchange.com/questions/81129/what-are-the-differences-between-most-more-and-less)
 
 \[WIP\]
 
