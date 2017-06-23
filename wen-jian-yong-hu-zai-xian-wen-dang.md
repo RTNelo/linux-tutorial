@@ -86,6 +86,8 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 `man who`
 
+如果你的 Linux 拥有完整的 Manual ，你应该会看到如下片段：
+
 \[WIP: If file is not specified, use /var/run/utmp\]
 
 ### 编程：仿写 who 指令
