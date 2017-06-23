@@ -38,7 +38,7 @@
 
 `int main (int argc, char* argv[])`
 
-argc 是 argument counts 的缩写，表示该可执行程序收到的参数个数，argv 是收到的参数构成的数组列表。
+`argc`是 argument counts 的缩写，表示该可执行程序收到的参数个数，`argv`是收到的参数构成的数组列表。
 
 ## 用户 User
 
