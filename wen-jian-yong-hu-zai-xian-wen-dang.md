@@ -72,7 +72,7 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 `man who`
 
-\[WIP\]
+\[WIP: If file is not specified, use /var/run/utmp\]
 
 ### Access Control Lists 权限控制列表
 
