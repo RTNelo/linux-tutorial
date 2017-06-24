@@ -124,5 +124,5 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 `apropos - search the whatis database for strings`
 
-看来这个指令是在一个叫做 whatis database 的数据库中搜索信息的。所以，接下来的问题就是，what is whatis & what is whatis database。
+看来这个指令是在一个叫做 whatis database 的数据库中搜索信息的。所以，接下来的问题就是：what is whatis & what is whatis database。
 
