@@ -116,6 +116,8 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 ### man -k 与 whatis database
 
+#### man -k
+
 之前提到，`man -k`可以用来在 Manual 中搜索我们想找的关键字。而它又是如何做到快速索引整个 Linux Manual 的呢？不妨使用`man man`指令查看一下关于 Linux  Manual 的文档，找到`-k`参数的说明：
 
 `Equivalent toapropos.`
