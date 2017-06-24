@@ -130,7 +130,15 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 #### whatis & whatis database
 
+我们继续在 Manual 中查询：`man whatis`
 
+`whatis - search the whatis database for complete words.`
+
+似曾相识吧。先不去追究`strings`和`complete words`的区别，我们继续往下看：
+
+`whatis searches a set of database files containing short descriptions of system commands for keywords and displays the result on the standard out-put.`
+
+看来这个 a set of databases 指的就是 whatis database 了，它是一个包含了系统指令的关键词的简述的数据库。所以索引这个数据库，就可以在 Manual 中很快的找到我们需要的信息了。
 
 那些没有提供 whatis database 的 Linux 发行版，基本都提供了`makewhatis`指令，用来让用户创建 whatis database。
 
