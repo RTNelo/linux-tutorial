@@ -120,11 +120,11 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 之前提到，`man -k`可以用来在 Manual 中搜索我们想找的关键字。而它又是如何做到快速索引整个 Linux Manual 的呢？不妨使用`man man`指令查看一下关于 Linux  Manual 的文档，找到`-k`参数的说明：
 
-`Equivalent toapropos.`
+> Equivalent toapropos.
 
 然后继续`man apropos`
 
-`apropos - search the whatis database for strings`
+> apropos - search the whatis database for strings
 
 看来这个指令是在一个叫做 whatis database 的数据库中搜索信息的。所以，接下来的问题就是：what is whatis & what is whatis database。
 
@@ -132,11 +132,11 @@ Linux 为我们提供了一个指令，用来查看当前在线的用户列表�
 
 我们继续在 Manual 中查询：`man whatis`
 
-`whatis - search the whatis database for complete words.`
+> whatis - search the whatis database for complete words.
 
 似曾相识吧。先不去追究`strings`和`complete words`的区别，我们继续往下看：
 
-`whatis searches a set of database files containing short descriptions of system commands for keywords and displays the result on the standard out-put.`
+> whatis searches a set of database files containing short descriptions of system commands for keywords and displays the result on the standard out-put.
 
 看来这个 a set of databases 指的就是 whatis database 了，它是一个包含了系统指令的关键词的简述的数据库。所以索引这个数据库，就可以在 Manual 中很快的找到我们需要的信息了。
 
